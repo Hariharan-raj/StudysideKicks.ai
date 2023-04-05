@@ -1,34 +1,21 @@
-Inspiration
+<h1>Inspiration</h1>
 For many learners, the absence of a personal mentor and personalized learning can be a significant obstacle to achieving their goals. Without a mentor, learners may struggle to stay motivated, lack direction and feedback, and may not have access to the support and resources needed to succeed. Similarly, without personalized learning, learners may find themselves struggling to engage with generic materials that do not cater to their individual learning styles, making it difficult to retain information and apply it effectively. These problems can hinder progress and lead to frustration and ultimately, a lack of interest in learning.
-
+<br>
+<br>
 Imagine having a personal mentor who understands your unique learning style and can guide you towards your goals. With the power of AI, this is now possible. Introducing the AI-based personalized mentor for learning, powered by ChatGPT.
 
-What it does
+<h1>What it does</h1>
 Studysidekick.ai offers an innovative solution to the problems of personalization and mentorship in learning. Users can select a subject they want to learn and provide their availability and preferred timeline for completing the course. Using this information, studysidekick.ai creates a personalized roadmap with daily topics, assignments, and quizzes to evaluate the user's understanding. This personalized approach helps users to stay engaged and motivated while learning. The AI mentor tracks user progress and assigns daily tasks and assignments accordingly.
-
+<br>
+<br>
 The all-time available chatbot provides users with the necessary guidance and support, acting as a mentor for the subject they are learning and resolving doubts at any time. After successful completion of the course, users receive a completion certificate as an NFT, which can be used for validation and recognition of their achievement. Studysidekick.ai's personalized approach and AI mentorship make learning more effective, engaging, and rewarding for learners.
 
-How we built it
-To build our personalized AI mentorship platform, we used a combination of technologies and tools to create a seamless user experience. Firstly, we used OpenAI API and Node.js to develop customized APIs for the application. We utilized MongoDB to store the mentor's roadmap, users' progress, and inputs. Secured API endpoints were created for the MongoDB database to fetch dynamic data from OpenAI APIs, which were tested using Postman. We created an interactive front-end web application using React.js and Redux to allow users to interact with the platform.
 
-We then integrated all the backend APIs with the front-end React application and tested the interactive application. To provide users with a completion certificate as an NFT, we created a Python script to generate a dynamic certificate and mint it as an NFT in the blockchain using the Verbwire API. Finally, we developed a Node.js API endpoint to provide the completion certificate as an NFT to the users after the completion of the course or subject. We integrated all the features together and thoroughly tested the application against many test cases to ensure that it was robust and reliable.
 
-Challenges we ran into
-During the development of StudySidekick, we faced several challenges. Firstly, we needed to extract APIs for openAI responses in JSON format to integrate them into our platform. However, this was not a straightforward process and required us to write custom code to handle the JSON data. Another challenge we encountered was reliability issues with OpenAI responses. As we relied heavily on these responses, we had to ensure that we filtered out unreliable responses and took appropriate measures to handle errors. Moreover, we had to focus on reducing the response time to increase the platform's performance. This required us to optimize the code and improve our infrastructure to handle more requests efficiently. Lastly, we explored the use of blockchain technology to mint dynamic course completion certificates as NFTs. This was a unique and innovative feature that presented its own set of challenges, such as learning how to create smart contracts and handling the transactions on the blockchain network. Overall, developing StudySidekick was a complex process that required us to overcome multiple challenges and innovate along the way.
-
-Accomplishments that we're proud of
+<h1> Accomplishments </h1>
 We are incredibly proud of the accomplishments we achieved during the development of StudySidekick. One of the major achievements was successfully integrating OpenAI API responses into our platform. This allowed us to provide personalized mentoring to learners, which is one of the core features of our application. By leveraging OpenAI, we were able to offer an innovative learning experience that adapts to the individual needs of the user.
-
-Another accomplishment we are proud of is reducing the response lag and increasing the efficiency of our platform. We optimized our code and improved our infrastructure to handle more requests, which resulted in a significant reduction in wait time to create the planner. This was crucial in providing a seamless experience for our users, as they could plan their studies quickly and efficiently.
-
-Lastly, we developed the StudySidekick application from scratch solely for Princeton Hacks in the short time provided. This was a significant achievement as we had to work together as a team, manage our time effectively, and leverage each other's strengths to build a functional application. We were able to overcome all the challenges we faced and develop an innovative and functional application that impressed the judges and received positive feedback from the audience. Overall, we are proud of the hard work and dedication that went into developing StudySidekick, and we look forward to continuing to improve and innovate our platform.
-
-What we learned
-Building StudySidekick was a learning experience for the development team, and we gained several insights during the process. One of the most significant takeaways was the importance of optimizing the platform's efficiency to provide a seamless user experience. We also learned the importance of managing time effectively and leveraging each other's strengths to develop a functional application within a short time frame.
-
-Another important lesson we learned was the value of leveraging innovative technologies such as OpenAI and blockchain to create unique and functional features. We faced challenges such as integrating OpenAI API responses and creating smart contracts for minting dynamic course completion certificates as NFTs, but these efforts paid off, providing a unique and innovative experience for users.
-
-Finally, we learned that collaboration and effective communication were key to successfully developing StudySidekick. As a team, we had to work together to overcome challenges and leverage our skills and knowledge to develop a functional application that met the user's needs.
+<br>
+<br>
 
 In summary, building StudySidekick taught us the importance of optimizing efficiency, leveraging innovative technologies, collaborating effectively, and managing time to create functional applications that meet the user's needs.
 
